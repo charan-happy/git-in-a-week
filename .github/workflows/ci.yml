@@ -12,4 +12,4 @@ jobs:
       - name: Install dependencies
         run: pip install flake8
       - name: Run lint
-        run: flake8 tracker.py
+        run: flake8 app.py
